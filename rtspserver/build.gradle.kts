@@ -52,5 +52,6 @@ afterEvaluate {
 
 dependencies {
     implementation(libs.kotlinx.coroutines.android)
-    implementation(libs.rootencoder.library)
+    implementation(project(":library"))
+//    implementation(libs.rootencoder.library)
 }
